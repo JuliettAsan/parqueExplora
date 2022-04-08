@@ -1,12 +1,19 @@
 {
   "name": "parqueExplora",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Prueba técnica por Juliett Sanchez para puesto desarrollo web full stack",
+  "proxy": "http://localhost:3300/",
+  "main": "./src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1"
+  }
 }
