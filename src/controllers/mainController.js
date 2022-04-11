@@ -132,6 +132,10 @@ const mainController = {
                 }
                 return res.json("lo sentimos, no existen salas relacionadas");
             })
+    },
+
+    home: (req, res) => {
+        return res.render("home")
     }
 }
 
