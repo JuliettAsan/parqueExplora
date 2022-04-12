@@ -78,7 +78,7 @@ header{
     background-repeat: no-repeat;
     background-position: center ;
     color: white;
-    background-image: url("/image/imgPro/movil/INTRO-FONDO.jpg");
+    background-image: url("../image/imgPro/movil/INTRO-FONDO.jpg");
 }
 
 main section article h4{
@@ -103,6 +103,9 @@ main section article div img{
     text-align: center;
 }
 
+.experienciaImg{
+    width: 60%;
+}
 .obj{
     padding: 30px;
     height: 750px;
@@ -111,10 +114,25 @@ main section article div img{
     background-position: center ;
     color: #a463d3;
     background-color: white;
-    background-image: url("/image/imgPro/movil/OBJETIVO-TELESCOPIO.png");
+    background-image: url("../image/imgPro/movil/OBJETIVO-TELESCOPIO.png");
+}
+.obj2{
+    padding: 30px;
+    height: 750px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    color: #a463d3;
+    background-color: white;
+    background-image: url("../image/imgPro/movil/OBJETIVO-TELESCOPIO.png");
 }
 
 .obj h3{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+}
+.obj2 h3{
     font-size: 35px;
     font-weight: 800;
     line-height: 40px;
@@ -125,8 +143,18 @@ main section article div img{
     line-height: 20px;
     font-weight: 700;
 }
+.obj2 p{
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 700;
+}
 
 .obj li{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.obj2 li{
     display: flex;
     margin-top: 15px;
     margin-left: 15px;
@@ -137,8 +165,17 @@ main section article div img{
     height: 7%;
     margin-right: 10px;
 }
+.obj2 li img{
+    width: 7%;
+    height: 7%;
+    margin-right: 10px;
+}
 
-.obj li p{
+.obj li p {
+    width:80%;
+
+}
+.obj2 li p{
     width:80%;
 }
 
@@ -345,9 +382,32 @@ footer{
 
     /* MODIFICACIONES DEL BODY */
 
+    .exp{
+        color: white;
+        width: 100%;
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .definicion{
+        width: 40%;
+        align-self: center;
+    }
+
+    .experienciaImg{
+        width: 60%;
+    }
+
+    .exp h3{
+        font-size: 60px;
+        font-size: 55px;
+        text-decoration-line: underline;
+        line-height: 50px;
+    }
+
     .intro{
         height: 650px;
-        background-image: url("/image/imgPro/web/INTRO-FONDO.jpg");
+        background-image: url("../image/imgPro/web/INTRO-FONDO.jpg");
     }
 
     .intro h4{
@@ -383,12 +443,31 @@ footer{
         background-position: center ;
         color: #a463d3;
         background-color: white;
-        background-image: url("/image/imgPro/web/OBJETIVO-FONDO-COMPLETO.png");
+        background-image: url("../image/imgPro/web/OBJETIVO-FONDO-COMPLETO.png");
+    }
+
+    .obj2{
+        padding-left: 450px;
+        padding-top: 100px;
+        padding-right: 115px;
+        height: 750px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center ;
+        color: #a463d3;
+        background-color: white;
+        background-image: url("../image/imgPro/web/OBJETIVO-FONDO-COMPLETO.png");
     }
 
     .obj h3{
-        font-size: 60px;
         font-size: 55px;
+        padding-right: 183px;
+        text-decoration-line: underline;
+        line-height: 50px;
+    }
+
+    .obj2 h3{
+        font-size: 60px;
         padding-right: 183px;
         text-decoration-line: underline;
         line-height: 50px;
@@ -397,7 +476,15 @@ footer{
     .obj li{
         margin-top: 25px;
     }
+
+    .obj2 li{
+        margin-top: 25px;
+    }
     .obj li img{
+        width: 4%;
+    }
+
+    .obj2 li img{
         width: 4%;
     }
     .obj ul{
@@ -405,7 +492,13 @@ footer{
         padding-right: 162px;
     }
 
-    .obj p{
+    .obj2 ul{
+        margin-top: 50px;
+        padding-right: 162px;
+    }
+
+    .obj,
+    .obj2 p{
         font-size: 22px;
     }
 
@@ -487,6 +580,23 @@ footer{
     .terminos{
         color: #a463d3;
         font-size: 14px;
+    }
+
+    .interactivo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .interactivas{
+        display: flex;
+        width: 30%;
+        padding: 20px;
+    }
+
+    .interactivas li{
+        font-size: 18px;
+        color: white;
     }
     /* MODIFICACIONES DEL FOOTER */
     footer div{
