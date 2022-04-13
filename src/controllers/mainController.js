@@ -11,7 +11,7 @@ const mainController = {
 
     totalExperiencias: async (req, res) => {
         // Link de la API utilizada https://serpapi.com/
-        const apiKey = "13eb40205e87e5241a95effed6cdc37a2e615043b0d4e3a2d32cb7db4e09dfb5";
+        const apiKey = "7e3e141025814aa135c651264a08fc8952b446e975c08a0b590b03e8978fa283";
 
         // Obtiene los titulos de las exp de la BD
         let titulos = []
@@ -133,10 +133,6 @@ const mainController = {
                 return res.json("lo sentimos, no existen salas relacionadas");
             })
     },
-
-    home: (req, res) => {
-        return res.render("home")
-    }
 }
 
 module.exports = mainController;

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import logo from "../assets/image/imgPro/LogoParqueExp.png"
-//import FontAwesomeIcon from "https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200;300;400;800&display=swap"; 
+import { BsSearch } from "react-icons/bs"
+import { FiMenu } from "react-icons/fi"
 
 function Header() {
     return (
@@ -11,19 +12,19 @@ function Header() {
             </div>
             <div className="main-navbar">
                 <ul className="list">
-                    <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/navegation">Experimenta</Link></li>
+                    <li className="line"><Link to="/">Inicio</Link></li>
+                    <li className="line"><Link to="/navegation">Experimenta</Link></li>
                     <li><Link to="#">Conéctate</Link></li>
                     <li><Link to="#">Prográmate</Link></li>
-                    <li><Link to="/about">Conócenos</Link></li>
+                    <li className="line"><Link to="/about">Conócenos</Link></li>
                     <li><Link to="#">Suscríbete</Link></li>
                 </ul>
             </div>
             <div className="header-search">
-                <a href="#"><i className="fa fa-bars burger"></i></a>
+                <a href="#"><BsSearch className="search" /></a>
             </div>
             <div className="menu-burger">
-                <i className="fa fa-bars burger"></i>
+                <FiMenu className="menu" />
             </div>
         </header>
     )

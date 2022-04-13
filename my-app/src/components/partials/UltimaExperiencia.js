@@ -11,7 +11,7 @@ function UltimaExperiencia() {
             })
     }, []);
     return (
-        <section class="exp">
+        <section className="exp">
             {
                 <DatosUltimaExperiencia
                     titulo={experiencias.titulo}

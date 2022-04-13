@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "0c0663f4-f15e-4129-92f8-f5f509263645",
+		"name": "Parque Explora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Todas las experiencias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Experiencia por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/api/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"api",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busqueda por sala",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/salas?keyword=abierta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"salas"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "abierta"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear sala",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"En Escena, historias tras las historias\",\r\n    \"descripcion\": \"En escena es una fábrica para la creación de historias. Los visitantes del Parque Explora pueden experimentar con su cuerpo y ser protagonistas de sus creaciones, y explorar diferentes medios audiovisuales y de comunicación para crear grafitis, comics, música, e incluso sus propias películas.\",\r\n    \"sala\": \"Sala Abierta\",\r\n    \"imagenRe\": \"1\",\r\n    \"imagen\": \"salaAbiertaHis.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/api/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar sala",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"En Escena, historias tras las historias\",\r\n    \"descripcion\": \"En escena es una fábrica para la creación de historias. Los visitantes del Parque Explora pueden experimentar con su cuerpo y ser protagonistas de sus creaciones, y explorar diferentes medios audiovisuales y de comunicación para crear grafitis, comics, música, e incluso sus propias películas.\",\r\n    \"sala\": \"Sala Abierta\",\r\n    \"imagenRe\": \"1\",\r\n    \"imagen\": \"salaAbiertaHis.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3300/api/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"api",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar sala",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3300/api/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"api",
+						"7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

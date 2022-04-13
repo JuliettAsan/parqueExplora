@@ -7,24 +7,13 @@ function Formulario (){
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        console.log(form.current)
+        
         emailjs.sendForm("service_ceysym7","template_9kuxums",form.current,"kBHJhtiAqiWOOOnSo")
         .then((result) => {
             console.log(result.text)
         })
         
     }
-
-    window.addEventListener("load", function(){
-        let submit = document.querySelector(".button-submit");
-        console.log(submit)
-        submit.addEventListener("click", function(e){
-            var rta = alert("El correo ha sido enviado exitosamente");
-                e.preventDefault();
-                submit.style.backgroundColor = "grey";
-        })
-    })
 
     return(
         <section>
@@ -63,7 +52,7 @@ function Formulario (){
                     </div>
                 </div>
                 <div className="button">
-                    <input type="submit" value="Send" class="button-submit" />
+                    <input type="submit" value="Send" className="button-submit" />
                 </div>
             </form>
             <img src={logoWaForm} className="imgWa" />

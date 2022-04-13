@@ -1,12 +1,12 @@
 /* CSS RESPONSIVE PARA MOVIL */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Anek Tamil', sans-serif;
     background-color: #a463d3;
     position: relative;
@@ -14,29 +14,31 @@ body{
     min-height: 100vh;
 
 }
+
 /* CSS DEL HEADER */
-header{
+header {
     display: flex;
     flex-direction: row;
 }
 
-.main-header img{
+.main-header img {
     width: 90px;
     margin: 5px;
 }
 
-.main-header{
+.main-header {
     width: 60%;
 }
-.main-navbar{
-    display:none;
+
+.main-navbar {
+    display: none;
 }
 
-.main-navbar a{
+.main-navbar a {
     color: #000;
 }
 
-.list{
+.list {
     color: #000;
     display: flex;
     justify-content: space-evenly;
@@ -44,12 +46,12 @@ header{
     padding: 10px;
 }
 
-.menu-burger{
+.menu-burger {
     width: 20%;
     text-align: center;
 }
 
-.menu-burger i{
+.menu-burger i {
     border: 1px solid #000;
     border-radius: 5px;
     width: 45%;
@@ -59,126 +61,126 @@ header{
     margin-top: 20px;
 }
 
-.header-search{
+.header-search {
     width: 20%;
     text-align: end;
 }
 
-.header-search i{
+.header-search i {
     color: #000;
     font-size: 30px;
     margin-top: 20px;
 }
 
 /* CSS DEL MAIN */
-.intro{
+.intro {
     padding: 30px;
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     color: white;
     background-image: url("/image/imgPro/movil/INTRO-FONDO.jpg");
 }
 
-main section article h4{
+main section article h4 {
     font-size: 40px;
     font-weight: 800;
     line-height: 40px;
     margin-top: 130px;
 }
 
-main section article p{
+main section article p {
     font-size: 15px;
     font-size: 200;
 }
 
-.wa{
+.wa {
     margin-top: 80px;
     text-align: center;
 }
 
-main section article div img{
+main section article div img {
     width: 40px;
     text-align: center;
 }
 
-.obj{
+.obj {
     padding: 30px;
     height: 750px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     color: #a463d3;
     background-color: white;
     background-image: url("/image/imgPro/movil/OBJETIVO-TELESCOPIO.png");
 }
 
-.obj h3{
+.obj h3 {
     font-size: 35px;
     font-weight: 800;
     line-height: 40px;
 }
 
-.obj p{
+.obj p {
     font-size: 19px;
     line-height: 20px;
     font-weight: 700;
 }
 
-.obj li{
+.obj li {
     display: flex;
     margin-top: 15px;
     margin-left: 15px;
 }
 
-.obj li img{
+.obj li img {
     width: 7%;
     height: 7%;
     margin-right: 10px;
 }
 
-.obj li p{
-    width:80%;
+.obj li p {
+    width: 80%;
 }
 
-.imgCa1{
+.imgCa1 {
     display: none;
 }
 
-.caracteristicas{
+.caracteristicas {
     padding: 30px;
     height: 750px;
     text-align: center;
     color: white;
 }
 
-.caracteristicas img{
+.caracteristicas img {
     margin-top: 90px;
     width: 80%;
     text-align: center;
 }
 
-.caracteristicas h3{
+.caracteristicas h3 {
     margin-top: 40px;
     font-size: 35px;
     font-weight: 800;
     line-height: 40px;
 }
 
-.caracteristicas ul{
+.caracteristicas ul {
     padding-left: 50px;
     font-size: 30px;
     text-align: start;
 }
 
-.caracteristicas li{
+.caracteristicas li {
     font-size: 18px;
     font-weight: 600;
     margin: 10px;
 }
 
-.informacion{
+.informacion {
     padding: 30px;
     height: 1100px;
     text-align: center;
@@ -187,31 +189,32 @@ main section article div img{
     text-align: center;
 }
 
-.informacion h3{
+.informacion h3 {
     margin-top: 40px;
     font-size: 35px;
     font-weight: 800;
     line-height: 35px;
 }
 
-.informacion h2{
+.informacion h2 {
     margin-top: 5px;
     font-size: 20px;
     font-weight: 800;
     line-height: 18px;
 }
 
-.details{
+.details {
     width: 100%;
     font-size: 18px;
 }
 
-form{
+form {
     margin-top: 20px;
     padding: 20px;
 }
+
 form input,
-.category{
+.category {
     width: 100%;
     border: 2px solid #F9F9F9;
     border-bottom: #a463d3 1px solid;
@@ -221,11 +224,11 @@ form input,
     background-color: #F9F9F9;
 }
 
-.category{
+.category {
     font-size: 15px;
 }
 
-.button input{
+.button input {
     width: 40%;
     height: 35px;
     text-align: center;
@@ -237,22 +240,23 @@ form input,
     font-weight: 700;
 }
 
-.imgWa{
+.imgWa {
     width: 16%;
 }
 
-.mensajeWa{
+.mensajeWa {
     color: #128c7e;
 }
 
-.terminos{
-    color:red;
+.terminos {
+    color: red;
     font-size: 10px;
     text-align: start;
     padding: 10px;
 }
+
 /* CSS DEL FOOTER */
-footer{
+footer {
     background-color: #F9F9F9;
     position: absolute;
     left: 0px;
@@ -261,81 +265,89 @@ footer{
 }
 
 
-.footer-content{
+.footer-content {
     padding-top: 40px;
     padding-left: 40px;
     position: sticky;
     justify-content: space-evenly;
 }
 
-.footer-content h3{
+.footer-content h3 {
     width: 100%;
 }
 
-.footer-content p{
+.footer-content p {
     font-size: 15px;
     font-weight: 300;
     width: 100%;
 
 }
-.contact{
+
+.contact {
     margin-bottom: 20px;
 }
 
-.find{
+.find {
     display: none;
 }
 
-.location{
+.location {
     margin-bottom: 50px;
 }
 
-.copyright{
+.copyright {
     font-size: 10px;
     text-align: center;
 }
 
-.listSocial{
+.listSocial {
     display: flex;
     justify-content: center;
     margin: 10px;
 }
 
-.listSocial i{
+.listSocial i {
     color: grey;
     text-align: center;
 }
 
-.others{
+.others {
     display: none;
 }
+
 /* DEFINICIONES PARA WEB */
 
-@media(min-width:378px){
-    body{
+@media(min-width:378px) {
+    body {
         padding-bottom: 400px;
     }
+
     /* MODIFICACIONES DEL HEADER */
-    header{
+    header {
         background-color: #E1E4E7;
     }
-    .main-header img{
+
+    .main-header img {
         width: 100px;
         margin-left: 10px;
     }
-    .main-navbar{
+
+    .main-navbar {
         display: flex;
         width: 80%;
         align-items: center;
     }
-    .menu-burger{
+
+    .menu-burger {
         display: none;
     }
-    .header-search{
+
+    .header-search {
         width: auto;
         margin: 10px;
     }
-    main section div.carrusel article{
+
+    main section div.carrusel article {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -345,48 +357,49 @@ footer{
 
     /* MODIFICACIONES DEL BODY */
 
-    .intro{
+    .intro {
         height: 650px;
         background-image: url("/image/imgPro/web/INTRO-FONDO.jpg");
     }
 
-    .intro h4{
+    .intro h4 {
         font-size: 100px;
         line-height: 90px;
-        padding-left: 200px;
-        padding-right: 180px;
+        width: 60%;
+        margin: auto;
         margin-top: 75px;
     }
-    .intro p{
+
+    .intro p {
         margin: 30px;
         width: 70%;
         padding-left: 300px;
     }
 
-    .wa{
+    .wa {
         margin: auto;
     }
 
-    div .escribe{
+    div .escribe {
         margin: auto;
         padding: 1px;
         font-size: 18px;
     }
 
-    .obj{
+    .obj {
         padding-left: 450px;
         padding-top: 100px;
         padding-right: 115px;
         height: 750px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center ;
+        background-position: center;
         color: #a463d3;
         background-color: white;
         background-image: url("/image/imgPro/web/OBJETIVO-FONDO-COMPLETO.png");
     }
 
-    .obj h3{
+    .obj h3 {
         font-size: 60px;
         font-size: 55px;
         padding-right: 183px;
@@ -394,126 +407,138 @@ footer{
         line-height: 50px;
     }
 
-    .obj li{
+    .obj li {
         margin-top: 25px;
     }
-    .obj li img{
+
+    .obj li img {
         width: 4%;
     }
-    .obj ul{
+
+    .obj ul {
         margin-top: 50px;
         padding-right: 162px;
     }
 
-    .obj p{
+    .obj p {
         font-size: 22px;
     }
 
-    .caracteristicas img{
+    .caracteristicas img {
         display: flex;
         flex-wrap: wrap;
         margin-top: 60px;
     }
 
-    .imagenesCaracteristicas{
+    .imagenesCaracteristicas {
         width: 100%;
         -webkit-writing-mode: vertical-rl;
     }
+
     .caracteristicas img,
-    .imgCa1{
+    .imgCa1 {
         width: 25%;
         margin-right: 240px;
     }
 
-    .caracteristicas h3{
+    .caracteristicas h3 {
         font-size: 60px;
         font-size: 55px;
         text-decoration-line: underline;
         line-height: 50px;
     }
 
-    .caracteristicas ul{
+    .caracteristicas ul {
         display: flex;
         flex-wrap: wrap;
         padding-left: 50px;
         font-size: 30px;
     }
 
-    .caracteristicas li{
+    .caracteristicas li {
         font-size: 25px;
         width: 30%;
         padding: 20px;
     }
 
-    .informacion{
-        padding-left:350px;
+    .informacion {
+        padding-left: 350px;
         padding-right: 350px;
         height: 855px;
     }
-    form{
+
+    form {
         width: 100%;
         padding: 0px;
     }
-    form div{
+
+    form div {
         float: left;
     }
 
-    .datos{
+    .datos {
         width: 50%;
         padding: 10px;
     }
 
-    .details{
+    .details {
         font-size: 24px;
     }
 
-    .button{
+    .button {
         width: 100%;
     }
 
-    .button input{
+    .button input {
         width: 20%;
     }
 
-    .imgWa{
+    .imgWa {
         width: 8%;
     }
 
-    .mensajeWa{
+    .mensajeWa {
         font-size: 18px;
         font-weight: 700;
     }
 
-    .terminos{
+    .terminos {
         color: #a463d3;
         font-size: 14px;
     }
+
     /* MODIFICACIONES DEL FOOTER */
-    footer div{
+    footer div {
         display: flex;
         flex-wrap: wrap;
     }
-    .find{
+
+    .find {
         display: flex;
     }
+
     .find,
     .contact,
-    .location{
+    .location {
         width: 20%;
     }
-    .find img{
+
+    .find img {
         width: 60%;
     }
-    .copyright{
+
+    .copyright {
         font-size: 14px;
         margin-top: 80px;
         margin-left: 100px;
         text-align: start;
     }
-    .socialMedia{
+
+    .socialMedia {
         text-align: center;
     }
-    .others{
+
+    .others {
         display: flex;
     }
 }

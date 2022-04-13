@@ -12,7 +12,7 @@ function ExperienciasInteractivas() {
     }, []);
     return (
         <section>
-            <h3><u>Experiencias interactivas</u></h3>
+            <h3 className="titulo"><u>Experiencias interactivas</u></h3>
             <article className="interactivo">
                 {
                     todaExperiencias.map((data, index) => {
@@ -22,7 +22,7 @@ function ExperienciasInteractivas() {
                             descripcion={data.descripcion}
                             sala={data.sala}
                             imagenRe={data.imagenRe}
-                            imagen={data.imagen}
+                            imagen={`http://localhost:3300${data.imagen}`}
                         />
                     })
                 }

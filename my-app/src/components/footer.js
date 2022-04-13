@@ -1,13 +1,22 @@
 import React from "react";
 
+//RECURSOS UTILIZADOS
+//Iconos
+import {FaInstagram} from "react-icons/fa"
+import {BsFacebook, BsYoutube, BsFillEnvelopeFill} from "react-icons/bs"
+import {AiOutlineArrowUp} from "react-icons/ai"
+//Logos
+import logoParqueExplora from "../assets/image/imgPro/LogoParqueExp.png"
+import logoPlanetario from "../assets/image/imgPro/LogoPlanetario.jpg"
+
 function Footer() {
     return (
         <footer>
             <div className="footer-content">
                 <div className="find">
                     <h3>Encuéntranos en:</h3>
-                    <img src="image/imgPro/LogoParqueExp.png" className="logoParqueFooter" alt="logoParque" />
-                    <img src="image/imgPro/logoPlanetario.jpg" className="logoPlanetario" alt="logoPlanetario" />
+                    <img src={logoParqueExplora} className="logoParqueFooter" alt="logoParque" />
+                    <img src={logoPlanetario} className="logoPlanetario" alt="logoPlanetario" />
                 </div>
                 <div className="contact">
                     <h3>Contáctanos</h3>
@@ -25,14 +34,10 @@ function Footer() {
             <p className="copyright">@ 2020 PARQUE EXPLORA | TODOS LOS DERECHOS RESERVADOS</p>
             <div className="socialMedia">
                 <ul className="listSocial">
-                    <li><a href="https://www.instagram.com/parqueexplora/"><i className="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.facebook.com/ParqueExplora"><i className="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.youtube.com/c/parqueexplora"><i className="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/parqueexplora/"><FaInstagram className="instagram"/></a></li>
+                    <li><a href="https://www.facebook.com/ParqueExplora"><BsFacebook className="facebook"/></a></li>
+                    <li><a href="https://www.youtube.com/c/parqueexplora"><BsYoutube className="youtube"/></a></li>
                 </ul>
-            </div>
-            <div className="others">
-                <ul><a href="/home"><i className="fas fa-arrow-up"></i></a></ul>
-                <ul><a href=""><i className="fas fa-envelope"></i></a></ul>
             </div>
         </footer>
     )

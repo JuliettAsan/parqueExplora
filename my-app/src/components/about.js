@@ -17,10 +17,6 @@ function About() {
                         Es un museo de ciencias incluyente diseñado para anular barreras de diverso tipo: físicas, actitudinales, informativas,
                         culturales…La biodiversidad pasa por lo humano. Y por nuestra relación con los otros. El Acuario nos incluye y pone
                         de presente que la  fragilidad de la vida del agua es, también, la nuestra.</p>
-                    <p>Este escenario educativo y de conservación recrea dos ecosistemas en riesgo: el bosque húmedo tropical y los
-                        arrecifes de coral. El Acuario rebasa el nivel exhibitorio y promueve una nueva ética de la vida. Más de 4 mil
-                        individuos de 400 especies, nos recuerdan que no estamos solos, que nuestro destino es común y que es preciso
-                        conocer y respetar no solo lo que se nos parece.</p>
                     <div className="wa">
                         <img src={logoWa} alt="Logo wa" />
                         <p className="escribe">Escríbenos por Whatsapp</p>
